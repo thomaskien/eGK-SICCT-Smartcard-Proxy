@@ -1,5 +1,5 @@
 # eGK-SICCT-Smartcard-Proxy
-
+<img src="https://github.com/thomaskien/eGK-SICCT-Smartcard-Proxy/blob/main/IMG_3099.jpeg?raw=true" alt="drawing" width="800" />
 
 # SICCT-Proxy für T2med mit einfachem USB-Kartenleser
 
