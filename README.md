@@ -17,11 +17,10 @@ Aktueller Fokus:
 ---
 ## T2med
 Kartenleser einrichten:
-URL: http://IP.DES.RECHNERS:4742
-benutzer: beliebig
-passwort: beliebig
-
-Achtung: localhost geht nicht, da der SERVER die verbindung zum kartenleser aufbaut, nicht der client!
+- URL: http://IP.DES.RECHNERS:4742
+- benutzer: beliebig
+- passwort: beliebig
+- Achtung: localhost geht nicht, da der SERVER die verbindung zum kartenleser aufbaut, nicht der client!
 
 
 ## Funktionsumfang
