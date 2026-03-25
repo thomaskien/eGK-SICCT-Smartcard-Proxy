@@ -11,6 +11,8 @@ Aktueller Fokus:
 - **eGK lesen**
 - **T2med über SICCT ansprechen**
 - einfacher USB-Leser statt klassischem LAN-Kartenterminal
+- Reader für 12,99 Euro bei Amazon "CSL Smartcard USB"
+- gibt es für USB und USB-C
 
 ---
 
@@ -55,16 +57,25 @@ Der Proxy unterstützt aktuell unter anderem:
 ### Ubuntu / Debian
 
 ```bash
+deactivate 2>/dev/null || true
+
 sudo apt update
 sudo apt install -y \
-  python3 \
-  python3-venv \
+  python3-dev \
+  python3.12-dev \
   build-essential \
   swig \
+  pkg-config \
   libpcsclite-dev \
   pcscd \
   pcsc-tools \
   libccid
+
+python3 -m venv ~/venvs/sicct
+source ~/venvs/sicct/bin/activate
+
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install pyscard
 ````
 
 ### PC/SC-Dienst aktivieren
@@ -73,16 +84,6 @@ sudo apt install -y \
 sudo systemctl enable --now pcscd
 ```
 
----
-
-## Python-Umgebung einrichten
-
-```bash
-python3 -m venv ~/venvs/sicct
-source ~/venvs/sicct/bin/activate
-pip install --upgrade pip setuptools wheel
-pip install pyscard
-```
 
 ---
 
