@@ -21,6 +21,7 @@ Kartenleser einrichten:
 - benutzer: beliebig
 - passwort: beliebig
 - Achtung: localhost geht nicht, da der SERVER die verbindung zum kartenleser aufbaut, nicht der client!
+- wenn mal was nicht geht: unter kartenlesegeräte den "play" knopf drücken, dann wird die session repariert
 
 
 ## Funktionsumfang
