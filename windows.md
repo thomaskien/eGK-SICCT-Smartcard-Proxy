@@ -2,6 +2,7 @@
 
 - am einfachsten .exe runterladen
 - bei mir hat windows die treiber des CSL automatisch installiert
+- einstellungen in T2med identisch wie bei linux
 
 Code selbst überprüfen:
 - python installieren von python.org
