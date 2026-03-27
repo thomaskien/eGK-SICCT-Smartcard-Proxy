@@ -6,6 +6,7 @@ Code selbst überprüfen:
 - python installieren von python.org
 - powershell öffnen
 - untiges pasten und sich so selbst eine .exe bauen am einfachsten
+- reader-verbindung testen: .\.venv\Scripts\python.exe -c "from smartcard.System import readers; print(readers())"
 
 <pre>
 $ErrorActionPreference = "Stop"
