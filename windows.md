@@ -1,6 +1,7 @@
 # installation unter windows
 
 - am einfachsten .exe runterladen
+- bei mir hat windows die treiber des CSL automatisch installiert
 
 Code selbst überprüfen:
 - python installieren von python.org
