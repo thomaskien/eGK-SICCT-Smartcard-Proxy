@@ -8,8 +8,9 @@ Dieses Projekt stellt einen lokalen **SICCT-kompatiblen Proxy** bereit, damit **
 Der Proxy nimmt SICCT-Verbindungen von T2med entgegen und reicht die eigentlichen Karten-APDUs an den lokal angeschlossenen Leser weiter.
 
 Aktueller Fokus:
+- läuft unter Linux oder Windows
 - **eGK lesen**
-- **T2med über SICCT ansprechen**
+- **T2med über SICCT ansprechen** - vielleicht gehen auch andere PVS
 - einfacher USB-Leser statt klassischem LAN-Kartenterminal
 - Reader für 12,99 Euro bei Amazon "CSL Smartcard USB"
 - gibt es für USB und USB-C
@@ -45,6 +46,7 @@ Der Proxy unterstützt aktuell unter anderem:
 ### Hardware
 
 - Linux-Rechner
+- oder Windows-Rechner
 - kontaktbehafteter Smartcard-Reader
 - getesteter Reader:
   - **Alcor Link AK9563**
