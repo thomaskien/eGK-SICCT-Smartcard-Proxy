@@ -24,6 +24,10 @@ Kartenleser einrichten:
 - Achtung: localhost geht nicht, da der SERVER die verbindung zum kartenleser aufbaut, nicht der client!
 - wenn mal was nicht geht: unter kartenlesegeräte den "play" knopf drücken, dann wird die session repariert
 
+## Youtube-Video
+[![Video](https://img.youtube.com/vi/4B4IejakzHA/0.jpg)](https://www.youtube.com/watch?v=4B4IejakzHA)
+
+
 
 ## Funktionsumfang
 
